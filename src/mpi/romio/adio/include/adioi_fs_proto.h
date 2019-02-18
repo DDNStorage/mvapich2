@@ -69,6 +69,11 @@ extern struct ADIOI_Fns_struct ADIO_PVFS2_operations;
 /* prototypes are in adio/ad_pvfs2/ad_pvfs2.h */
 #endif
 
+#ifdef ROMIO_IME
+/* prototypes are in adio/ad_ime/ad_ime.h */
+extern struct ADIOI_Fns_struct ADIO_IME_operations;
+#endif
+
 #ifdef ROMIO_TESTFS
 extern struct ADIOI_Fns_struct ADIO_TESTFS_operations;
 /* prototypes are in adio/ad_testfs/ad_testfs.h */
